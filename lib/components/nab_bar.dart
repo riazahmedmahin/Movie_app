@@ -19,6 +19,7 @@ class Nagibation extends StatelessWidget {
         tabs: [
       GButton(icon: Icons.movie,
       text: "Movie",),
+      
       GButton(icon: Icons.tv,
       text: "TV",),
       ]
