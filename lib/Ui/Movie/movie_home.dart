@@ -19,6 +19,7 @@ ApiService apiService = ApiService();
     return Container(
      child: Column(
       children: [
+        SizedBox(height: 30,),
         FutureBuilder(builder: (context,snapshot){
           if(snapshot.hasData){
             List<MovieModel> moviedata= snapshot.data ??[];
