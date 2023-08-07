@@ -37,7 +37,8 @@ ApiService apiService = ApiService();
         children: [
           Text("Popular movie",style: TextStyle(color: Colors.black,fontSize: 20),),
           
-          SizedBox(height: 200,child: MoviesCategory(movieType: MovieType.popular),)
+          SizedBox(height: 200,child: MoviesCategory(movieType: MovieType.popular),),
+          SizedBox(height: 20,),
 
         ],
        )
